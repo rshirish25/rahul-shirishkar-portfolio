@@ -33,7 +33,7 @@ jobs:
       - name: Build
         run: npm run build
 
-      # SPA fix: make 404.html so client-side routes work on refresh
+      # SPA fix so refresh works on GitHub Pages
       - name: Create 404.html
         run: cp dist/index.html dist/404.html
 
