@@ -384,7 +384,7 @@ function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Rocket className="" />
-          <span className="font-semibold">Rahul • Aerospace</span>
+          <span className="font-semibold">Rahul Shirishkar • Aerospace</span>
         </div>
         <div className="hidden sm:flex items-center gap-3">
           <a
