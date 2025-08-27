@@ -31,11 +31,10 @@ const profile = {
   name: "Rahul Shirishkar",
   tagline: "Aerospace Engineering @ University of Michigan — Class of 2026",
   blurb:
-    "I build simulations, analyze flight systems, and communicate results clearly. My interests span trajectory design, aero/thermal analysis, and reliable engineering software.",
-  location: "Ann Arbor, MI, USA",
+    "I build simulations, analyze flight systems, and communicate results clearly. My interests span trajectory design, Guidance, Control and Navigation, and engineering problem-solving as a whole",
   email: "rshirish@umich.edu",
-  github: "https://github.com/rahulshirishkar", // update
-  linkedin: "https://www.linkedin.com/in/rahul-shirishkar/", // update
+  github: "https://github.com/rshirish25", // update
+  linkedin: "https://www.linkedin.com/in/rahul-shirishkar-26baa7304/", // update
 };
 
 // -------------------- DATA: PROJECTS --------------------
@@ -43,7 +42,7 @@ const projects = [
   {
     title: "Aerobraking‑Trajectory‑Simulator (ABTS)",
     year: "2025",
-    tagline: "Monte Carlo aerobraking analysis with GRAM/planetary models",
+    tagline: "Aerobraking analysis with GRAM/planetary models",
     summary:
       "End‑to‑end Julia codebase for stochastic aerobraking campaigns: atmospheric dispersion, periapsis targeting, SPICE ephemerides, and risk envelopes.",
     skills: ["Julia", "SPICE", "GRAM", "Numerical Methods", "Monte Carlo"],
@@ -74,7 +73,7 @@ const projects = [
     links: [{ label: "Report (AIAA style)", href: "#", icon: BookOpen }],
   },
   {
-    title: "Uranus Moon Penetrator: RTD Trade Study",
+    title: "PERCI: Uranus Moon Penetrator Mission Concept",
     year: "2025",
     tagline: "Cryogenic germanium RTDs selection for deep‑space flight",
     summary:
