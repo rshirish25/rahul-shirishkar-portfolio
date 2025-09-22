@@ -40,16 +40,25 @@ const profile = {
 // -------------------- DATA: PROJECTS --------------------
 const projects = [
   {
-    title: "Aerobraking‑Trajectory‑Simulator (ABTS)",
-    year: "2025",
-    tagline: "Aerobraking analysis with GRAM/planetary models",
-    summary:
-      "End‑to‑end Julia codebase for stochastic aerobraking campaigns: atmospheric dispersion, periapsis targeting, SPICE ephemerides, and risk envelopes.",
-    skills: ["Julia", "SPICE", "GRAM", "Numerical Methods", "Monte Carlo"],
-    links: [
-      { label: "GitHub", href: "#", icon: Github },
-      { label: "Project Notes", href: "#", icon: ExternalLink },
-    ],
+  title: "SpaceAGORA",
+  year: "2025",
+  tagline: "Space-FALCON Lab's Julia-based simulator for aerobraking mission design",
+  summary:
+    "Contributed to Space-AGORA, an open-source Julia simulator for aerobraking missions. Focused on debugging routines, improving algorithm efficiency, and running large simulation sets across varied spacecraft and mission parameters to test accuracy and performance.",
+  skills: ["Julia", "GNC", "Trajectory Design", "Monte Carlo", "Simulation"],
+  links: [
+    { label: "GitHub", href: "#", icon: Github },
+    { label: "Project Notes", href: "#", icon: ExternalLink },
+  ],
+  },
+  {
+  title: "PERCI: Uranus Moon Penetrator Mission Concept",
+  year: "2025",
+  tagline: "Secondary payload concept for NASA’s Uranus mission",
+  summary:
+    "Proposed a penetrator probe to enable in-situ science on Uranian moons. Collaborated with NASA JPL mentors on mission concept and requirements, built the Science Traceability Matrix linking Decadal Survey goals to payload capabilities, performed instrument trade studies, and supported subsystem design for payload, structures, trajectory, and thermal.",
+  skills: ["Mission Design", "Trade Studies", "Science Traceability Matrix", "Subsystem Design"],
+  links: [{ label: "Report", href: "/files/PERCIreport.pdf", icon: BookOpen }],
   },
   {
     title: "6‑DOF Spacecraft Simulator (MATLAB)",
@@ -71,24 +80,6 @@ const projects = [
       "Wind‑tunnel supported design exploration coupling pressure recovery, heat addition, and potential thrust augmentation.",
     skills: ["Aerodynamics", "Thermal", "Wind Tunnel", "Data Analysis"],
     links: [{ label: "Report (AIAA style)", href: "#", icon: BookOpen }],
-  },
-  {
-    title: "PERCI: Uranus Moon Penetrator Mission Concept",
-    year: "2025",
-    tagline: "Cryogenic germanium RTDs selection for deep‑space flight",
-    summary:
-      "Compared GR‑1400‑AA vs alternatives with criteria weighting, radiation tolerance, and integration risk (FMEA).",
-    skills: ["Trade Study", "Cryogenics", "Sensors", "FMEA"],
-    links: [{ label: "Study PDF", href: "#", icon: BookOpen }],
-  },
-  {
-    title: "Airfoil Pressure Coefficient Analyses",
-    year: "2024",
-    tagline: "NACA families: Cp distributions vs camber location",
-    summary:
-      "Computed and visualized Cp curves across angles of attack; linked camber position to performance trends.",
-    skills: ["Aero Analysis", "Python/Matlab", "Data Viz"],
-    links: [{ label: "Write‑up", href: "#", icon: BookOpen }],
   },
 ];
 
