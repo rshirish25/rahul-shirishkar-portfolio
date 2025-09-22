@@ -58,7 +58,7 @@ const projects = [
   summary:
     "Proposed a penetrator probe to enable in-situ science on Uranian moons. Collaborated with NASA JPL mentors on mission concept and requirements, built the Science Traceability Matrix linking Decadal Survey goals to payload capabilities, performed instrument trade studies, and supported subsystem design for payload, structures, trajectory, and thermal.",
   skills: ["Mission Design", "Trade Studies", "Science Traceability Matrix", "Subsystem Design"],
-  links: [{ label: "Report", href: "/files/PERCIreport.pdf", icon: BookOpen }],
+  links: [{ label: "Report", href: "public/files/PERCIreport.pdf", icon: BookOpen }],
   },
   {
     title: "6‑DOF Spacecraft Simulator (MATLAB)",
